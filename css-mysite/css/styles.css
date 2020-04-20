@@ -1,23 +1,48 @@
 body {
-    margin: 0px;
+   margin: 0px;
+   text-align: center;
+   font-family: 'Merriweather', serif;
 }
 
 .bot-container {
-    background-color: red;
-    height: 200px;
-    width: 200px;
 }
 
-.top-container {
-    background-color: #D8B9C3;
+.bottom-cloud {
+    position: absolute;
+    bottom: 300px;
+    left: 300px;
 }
 
 h1 {
     margin-top: 0;
+    font-family: 'Sacramento', cursive;
+}
+
+h2 {
+    font-family: 'Titillium Web', sans-serif;
+}
+
+h3 {
+    font-family: 'Titillium Web', sans-serif;
 }
 
 .mid-container {
-    background-color: blue;
-    height: 200px;
-    width: 200px;
 }
+
+span {
+    text-decoration: underline;
+}
+
+.top-cloud {
+    position: absolute;
+    right: 300px;
+    top: 50px;
+}
+
+.top-container {
+    background-color: #D8B9C3;
+    padding-top: 100px;
+    position: relative;
+}
+
+
