@@ -1,10 +1,19 @@
+a {
+    color: #11999E;
+    padding: 20px;
+    text-decoration: none;
+    font-weight: bold;
+}
 body {
-   margin: 0px;
-   text-align: center;
-   font-family: 'Merriweather', serif;
+    margin: 0px;
+    text-align: center;
+    font-family: 'Merriweather', serif;
 }
 
-.bot-container {
+.bottom-container {
+    background-color: #66BFBF;
+    height: 100px;
+    padding-top: 30px;
 }
 
 .bottom-cloud {
@@ -13,20 +22,115 @@ body {
     left: 300px;
 }
 
+.btn {
+    font-family: helvetica;
+    font-weight: bold;
+    color: #EAF6F6 !important;
+    font-size: 16px;
+    padding: 12px 25px;
+    -moz-border-radius: 11px;
+    -webkit-border-radius: 11px;
+    border-radius: 11px;
+    background: #61B5B5;
+}
+
+.btn:hover{
+    color: #C70000 !important;
+    background: #000000;
+}
+
+.contact-me{
+    margin: 40px;
+    width: 500px;
+    margin: 45px auto;
+    line-height: 2;
+}
+
+.contactmebutton {
+    margin-bottom: 40px;
+}
+
+.copyright {
+    color: #EAF6F6;
+    padding-top:10px;
+    font-size: 0.8em;
+}
+
+.csgo{
+    width: 35%;
+    text-align: center;
+    float: left;
+    padding-right: 30px;
+}
+
+.csgo-row {
+    width: 50%;
+    margin: 0px auto;
+    text-align: left;
+    line-height: 2;
+    padding: 0px 0px 25px 0px;
+}
+
 h1 {
-    margin-top: 0;
+    margin-top: 50px;
+    margin-bottom: 0px;
     font-family: 'Sacramento', cursive;
+    font-size: 5.625rem;
+    color: #66BFBF;
 }
 
 h2 {
+    margin-top: 0px;
+    font-weight: normal;
     font-family: 'Titillium Web', sans-serif;
+    font-size: 2.2rem;
+    color: #66BFBF;
 }
 
 h3 {
     font-family: 'Titillium Web', sans-serif;
+    color: #11999E;
 }
 
-.mid-container {
+.hacker{
+    width: 35%;
+    text-align: center;
+    float: right;
+    padding-left: 30px;
+}
+
+.hacker-row {
+    width: 50%;
+    margin: 0px auto;
+    text-align: left;
+    line-height: 2;
+    padding: 0px 0px 25px 0px;
+}
+
+hr{
+    border-style: dotted none none none;
+    color: #C2C2C2;
+    border-width: 4px;
+    width: 35px;
+}
+
+.myimage {
+    height: 250px;
+}
+
+p {
+    color: #40514E
+}
+
+.profile {
+    padding: 25px;
+    width: 500px;
+    margin: 0px auto;
+    line-height: 2;
+}
+
+.skills{
+    padding: 25px;
 }
 
 span {
@@ -40,7 +144,7 @@ span {
 }
 
 .top-container {
-    background-color: #D8B9C3;
+    background-color: #EAF6F6;
     padding-top: 100px;
     position: relative;
 }
