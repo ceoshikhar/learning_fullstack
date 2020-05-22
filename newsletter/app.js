@@ -41,7 +41,7 @@ app.post('/', (req, res) => {
     url: 'https://us18.api.mailchimp.com/3.0/lists/eab2923848/members/',
     method: 'POST',
     headers: {
-      Authorization: 'shikhar a9ac2bc88b27b23b704b03fa2f9e3c5e-us18',
+      Authorization: 'shikhar <api-key>',
     },
     body: jsonData,
   };
@@ -72,9 +72,6 @@ app.post('/failure', (req, res) => {
 });
 
 // Start the server and listen on `PORT 3000`
-app.listen('3000', () =>
+app.listen(process.env.PORT || 3000, () =>
   console.log('Server is running on http://localhost:3000')
 );
-
-// API Key -> a9ac2bc88b27b23b704b03fa2f9e3c5e-us18
-// List/Audience ID -> eab2923848
