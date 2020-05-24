@@ -41,7 +41,7 @@ app.post('/', (req, res) => {
     url: 'https://us18.api.mailchimp.com/3.0/lists/eab2923848/members/',
     method: 'POST',
     headers: {
-      Authorization: 'shikhar <api-key>',
+      Authorization: 'shikhar a9ac2bc88b27b23b704b03fa2f9e3c5e-us18',
     },
     body: jsonData,
   };
