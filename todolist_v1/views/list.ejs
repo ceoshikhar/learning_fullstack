@@ -1,0 +1,31 @@
+<html>
+  <head>
+    <title>Todo List v1</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  </head>
+  <body>
+    <div class="box" id="heading">
+      <h1><%= whichDay %></h1>
+    </div>
+    <div class="box">
+      <% for(let i = 0; i < nextTodoItems.length; i++) { %>
+      <div class="item" id="<%= i %>" >
+          <input type="checkbox">
+          <p><%= nextTodoItems[i] %></p>
+        </div>
+      <% } %>
+
+      <form method="POST" action="/">
+        <input
+          type="text"
+          name="newTodoItem"
+          placeholder="Add todo item here"
+          autocomplete="off"
+          autofocus
+        >
+        <button name="addTodoItem" type="submit">+</button>
+      </form>
+    </div>
+  </body>
+</html>
